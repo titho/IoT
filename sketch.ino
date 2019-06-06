@@ -15,8 +15,8 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 WiFiClient  client;
 
 //SSID and Password of your WiFi router
-const char* ssid = "TP-LINK_4796";
-const char* password = "blazeit420";
+const char* ssid = "wifi";
+const char* password = "pass";
 
 unsigned long myChannelNumber = 795367;
 const char * myWriteAPIKey = "G3HGYB1EW0PA03ZU";
